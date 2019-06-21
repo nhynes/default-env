@@ -1,0 +1,9 @@
+[package]
+name = "default-env-test"
+version = "0.1.0"
+authors = ["Nick Hynes <nhynes@oasislabs.com>"]
+edition = "2018"
+publish = false
+
+[dependencies]
+default-env = { version = "0.1", path = "../" }

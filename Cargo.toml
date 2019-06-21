@@ -1,6 +1,6 @@
 [package]
 name = "default-env"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Nick Hynes <nhynes@nhynes.com>"]
 edition = "2018"
 description = "The `env!` macro but with a default value."
@@ -12,6 +12,6 @@ license = "MIT"
 proc-macro = true
 
 [dependencies]
-syn = "0.15"
-quote = "0.6"
 proc-macro2 = "0.4"
+quote = "0.6"
+syn = "0.15"
